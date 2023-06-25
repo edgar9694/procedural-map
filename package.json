@@ -1,0 +1,21 @@
+{
+  "name": "threejs-practice",
+  "version": "1.0.0",
+  "description": "practice project for learning threejs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./index.html --dist-dir docs --public-url ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "simplex-noise": "^4.0.1",
+    "three": "^0.144.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}
