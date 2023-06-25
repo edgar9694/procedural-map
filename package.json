@@ -4,8 +4,8 @@
   "description": "practice project for learning threejs",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel ./src/index.html",
-    "prod": "parcel ./src/index.html --dist-dir docs --public-url ./",
+    "dev": "npx vite",
+    "build": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
@@ -17,6 +17,7 @@
     "three": "^0.144.0"
   },
   "devDependencies": {
-    "parcel": "^2.7.0"
+    "parcel": "^2.7.0",
+    "vite": "^4.3.9"
   }
 }
